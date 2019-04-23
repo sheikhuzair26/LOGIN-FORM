@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    min-height: 500px;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+.Main1 {
+    position: absolute;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    height: 441px;
+    width: 70%;
+    margin-top: 168px;
+    right: 204px;
+    background-position: center;
+    font-family: 'Mukta', sans-serif;
+    z-index: 0;
+    transition: .8s ease-in-out;
+}
+
+.Button-Register {
+    position: absolute;
+    height: 50px;
+    width: 70%;
+    border-color: #e42f2f;
+    border-style: outset;
+    border-radius: 23%;
+    padding-top: 3px;
+    padding-left: 11px;
+    margin-top: 30px;
+    left: 33px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.Button-Register:hover {
+    box-shadow: 1px 2px 9px 0px black;
+    font-weight: bold;
+}
+
+/*White LOGIN BOX*/
+
+.White-login {
+    position: absolute;
+    height: 78vh;
+    width: 35%;
+    z-index: 1;
+    background-color: white;
+    margin-top: 121px;
+    left: 234px;
+    transition: .8s ease-in-out;
+}
+
+h1 {
+    font-size: 2.0rem;
+    font-style: initial;
+    color: darkgray;
+    padding-top: 51px;
+    padding-left: 54px;
+}
+
+.Email {
+    width: 75%;
+    height: 56px;
+    margin-left: 57px;
+    padding-left: 25px;
+}
+
+.Password {
+    width: 75%;
+    height: 56px;
+    margin-left: 57px;
+    padding-left: 25px;
+}
+
+.Button {
+    position: relative;
+    padding-right: 70px;
+    padding-left: 67px;
+    margin-left: 255px;
+    margin-right: -382px;
+    background-color: darkgray;
+    height: 47px;
+    left: -20px;
+}
+
+.Button:hover {
+    box-shadow: 1px 2px 9px 0px white;
+    font-weight: bold;
+}
